@@ -1,6 +1,6 @@
 ---
 title: Color Scheme
-slug: colorscheme
+slug: color-scheme
 ---
 There ar
 ![Color palette](/images/Pasted-image-20260216125250.png)
