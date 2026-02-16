@@ -11,9 +11,9 @@ languages:
     languageName: English
     languageCode: en-US
     contentDir: content/en
-    title: Site Name
+    title: Data Visualization 
     params:
-      description: Site Description
+      description: Learning Log
 
 # To omit the Google Analytics script, put a ~ in place of the G-XXXXXXXXXX below.
 services:
@@ -43,13 +43,13 @@ params:
       dark: '#101010'
 
   author:
-    name: Name
-    url: https://github.com/username
+    name: ChxFang
+    url: https://github.com/datavisualization002
 
   home:
-    heading: Your next
-    headingSegment2: Theme
-    description: Description
+    heading: Data Visualization
+    headingSegment2: Flourish
+    description: Learning Log
     getStartedPath: docs/
 
   pagination:
