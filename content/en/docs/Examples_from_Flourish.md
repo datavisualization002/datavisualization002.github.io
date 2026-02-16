@@ -1,6 +1,6 @@
 ---
-title: Resources
-slug: resources
+title: Examples from Flourish
+slug: ExamplesFlourish
 ---
 The following are resources used for Flourish.
 ## Examples from Flourish
