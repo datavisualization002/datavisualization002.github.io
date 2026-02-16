@@ -1,0 +1,68 @@
+<!doctype html>
+<html lang="zh-Hans">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Flourish Learning Log | datavisualization002</title>
+  <style>
+    body { font-family: system-ui, -apple-system, "Segoe UI", Roboto, "Noto Sans", Arial, sans-serif; max-width: 900px; margin: 40px auto; padding: 0 16px; line-height: 1.6; }
+    header { margin-bottom: 24px; }
+    nav a { margin-right: 12px; }
+    .card { border: 1px solid #ddd; border-radius: 12px; padding: 16px; margin: 16px 0; }
+    .muted { color: #666; }
+    iframe { width: 100%; border: 0; }
+  </style>
+</head>
+
+<body>
+  <header>
+    <h1>Flourish Learning Log</h1>
+    <p class="muted">记录 & 分享我学习 Flourish 的过程（notes + demos）。</p>
+    <nav>
+      <a href="#gallery">Gallery</a>
+      <a href="#notes">Notes</a>
+      <a href="#resources">Resources</a>
+    </nav>
+  </header>
+
+  <section class="card" id="gallery">
+    <h2>Gallery（示例）</h2>
+    <p>这里放你的 Flourish 作品嵌入（先用占位符测试）。</p>
+
+    <!-- ✅ 把 Flourish 的 embed code 粘在这里（通常是 iframe 或 script）。 -->
+    <!-- 先用一个占位 iframe 测试页面结构： -->
+    <div style="height: 420px;">
+      <iframe
+        title="Flourish demo placeholder"
+        src="about:blank"
+        style="height: 100%;">
+      </iframe>
+    </div>
+
+    <p class="muted">提示：等你有作品后，把上面的 iframe 换成 Flourish 导出的 embed code。</p>
+  </section>
+
+  <section class="card" id="notes">
+    <h2>Notes（示例）</h2>
+    <ul>
+      <li><strong>2026-02-16</strong>：今天学习了如何导入 CSV，字段命名注意事项：……</li>
+      <li><strong>2026-02-17</strong>：学习了 tooltip / color 的设置：……</li>
+    </ul>
+  </section>
+
+  <section class="card" id="resources">
+    <h2>Resources</h2>
+    <ul>
+      <li>Flourish 官方：Export & publish → Embed code（把代码贴到本页即可）:contentReference[oaicite:4]{index=4}</li>
+    </ul>
+  </section>
+
+  <footer class="muted">
+    <p>© <span id="y"></span> datavisualization002</p>
+  </footer>
+
+  <script>
+    document.getElementById("y").textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
