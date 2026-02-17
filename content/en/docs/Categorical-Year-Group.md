@@ -5,7 +5,6 @@ slug: categorical-year-group
 ## Example (Line, bar and pie charts)
 {{< flourish "visualisation/27591085" >}}
 ### Data Structure
-
 | Year | Categorical Variable | Group 1 | ... | Group n |
 | ---- | -------------------- | ------- | --- | ------- |
 | t1   | cat 1                | pct.    |     |         |
