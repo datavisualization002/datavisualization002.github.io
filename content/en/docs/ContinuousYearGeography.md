@@ -1,7 +1,6 @@
 ---
 title: Continuous-Year-Geography
 slug: continuous-year-geography
-math: true
 ---
 ## Example 
 {{< flourish "visualisation/27530571" >}}
