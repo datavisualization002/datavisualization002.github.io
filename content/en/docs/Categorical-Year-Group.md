@@ -17,6 +17,6 @@ slug: categorical-year-group
 - labels/time is the focused categorical variable. 
 - row filter is year.
 ### Notes 
-1. The number in raw data could be either percentage or proportion. Flourish could adjust that 
-2. To apply color scheme used in YJI, **Custom overriders** under **Colors** should be used. 
-3. Do not hide overlapping labels
+1. The number in raw data could be either percentage or proportion. Flourish could adjust that.
+2. To apply [Color Scheme](/docs/color-scheme/) used in YJI, _Custom overriders_ under _Colors_ should be used. 
+3. Do not hide overlapping labels.
