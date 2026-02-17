@@ -1,5 +1,5 @@
 ---
-title: "My Flourish Chart: (give it a name)"
+title: Overview"
 date: 2026-02-17
 tags: ["flourish", "bar-chart"]
 tool: "Flourish"
