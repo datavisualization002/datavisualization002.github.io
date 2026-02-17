@@ -17,13 +17,14 @@ These are HEX for colors used in Y-Facts data visualization.
 ### Youth Snapshot
 ![Snapshot Color palette](/images/F20260217094817.png)
 
-| Introduction               | Family    |
-| -------------------------- | --------- |
-| #fd25aa                    | #1e9dc8   |
-| Demographics               | Community |
-| #ffffff                    | #f2c469   |
-| Mental & Behavioral Health | Economics |
-| #fb991c                    | #af6aad   |
-| Physical Health            | Education |
-| #701b59                    | #199143   |
+| Introduction | Family |
+| --- | --- |
+| <span style="display:inline-block;width:12px;height:12px;background:#fd25aa;border:1px solid #999;border-radius:2px;vertical-align:middle;margin-right:6px;"></span>`#fd25aa` | <span style="display:inline-block;width:12px;height:12px;background:#1e9dc8;border:1px solid #999;border-radius:2px;vertical-align:middle;margin-right:6px;"></span>`#1e9dc8` |
+| **Demographics** | **Community** |
+| <span style="display:inline-block;width:12px;height:12px;background:#ffffff;border:1px solid #999;border-radius:2px;vertical-align:middle;margin-right:6px;"></span>`#ffffff` | <span style="display:inline-block;width:12px;height:12px;background:#f2c469;border:1px solid #999;border-radius:2px;vertical-align:middle;margin-right:6px;"></span>`#f2c469` |
+| **Mental & Behavioral Health** | **Economics** |
+| <span style="display:inline-block;width:12px;height:12px;background:#fb991c;border:1px solid #999;border-radius:2px;vertical-align:middle;margin-right:6px;"></span>`#fb991c` | <span style="display:inline-block;width:12px;height:12px;background:#af6aad;border:1px solid #999;border-radius:2px;vertical-align:middle;margin-right:6px;"></span>`#af6aad` |
+| **Physical Health** | **Education** |
+| <span style="display:inline-block;width:12px;height:12px;background:#701b59;border:1px solid #999;border-radius:2px;vertical-align:middle;margin-right:6px;"></span>`#701b59` | <span style="display:inline-block;width:12px;height:12px;background:#199143;border:1px solid #999;border-radius:2px;vertical-align:middle;margin-right:6px;"></span>`#199143` |
+
 
