@@ -1,5 +1,10 @@
-<div class="flourish-embed flourish-chart" data-src="{{ .Get 0 }}"></div>
+{{ $src := .Get 0 | default "" }}
+{{ if not $src }}
+<p><strong>Flourish embed error:</strong> missing visualisation id. Use: {{ "{{< flourish \"visualisation/XXXX\" >}}" }}</p>
+{{ else }}
+<div class="flourish-embed flourish-chart" data-src="{{ $src }}"></div>
 <script src="https://public.flourish.studio/resources/embed.js"></script>
 <noscript>
-  <img src="https://public.flourish.studio/{{ .Get 0 }}/thumbnail" width="100%" alt="chart visualization" />
+  <img src="https://public.flourish.studio/{{ $src }}/thumbnail" width="100%" alt="chart visualization" />
 </noscript>
+{{ end }}
