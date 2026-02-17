@@ -1,6 +1,6 @@
 ---
 title: Overview
-slug: Overview
+slug: overview
 ---
 
 {{< flourish "visualisation/27530571" >}}
