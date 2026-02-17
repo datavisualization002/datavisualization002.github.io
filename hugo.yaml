@@ -50,7 +50,7 @@ params:
     heading: Data Visualization
     headingSegment2: Flourish
     description: Learning Log
-    getStartedPath: docs/
+    getStartedPath: docs/overview/
 
   pagination:
     size: 6
