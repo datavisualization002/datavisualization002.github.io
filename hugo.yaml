@@ -30,6 +30,14 @@ markup:
       attribute:
         block: true
         title: true
+    extensions:
+      passthrough:
+        enable: true
+        delimiters:
+          block:
+            - ["$$", "$$"]
+          inline:
+            - ["$", "$"]
 
 params:
   project:
