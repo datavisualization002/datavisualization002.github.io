@@ -3,8 +3,8 @@ title: Color Scheme
 slug: color-scheme
 ---
 These are HEX for colors used in Y-Facts data visualization. 
-### Y-Facts
-![Y-Facts Color palette](/images/F20260211123051.png)
+### Y-FACTS
+![Y-FACTS Color palette](/images/F20260211123051.png)
 |        | Dark | light |
 | ------ | ---- | ----- |
 | Yellow | <span style="display:inline-block;width:12px;height:12px;background:#e2be21;border:1px solid #999;border-radius:2px;vertical-align:middle;margin-right:6px;"></span>`#e2be21` | <span style="display:inline-block;width:12px;height:12px;background:#ffe571;border:1px solid #999;border-radius:2px;vertical-align:middle;margin-right:6px;"></span>`#ffe571` |
