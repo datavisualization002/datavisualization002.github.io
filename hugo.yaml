@@ -42,7 +42,7 @@ markup:
 params:
   project:
     # To omit the startYear, put a ~ in its place.
-    startYear: 2022
+    startYear: ~
     presentYear: 2026
     github:
       repo: username/repo
