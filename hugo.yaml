@@ -45,7 +45,7 @@ params:
     startYear: ~
     presentYear: 2026
     github:
-      repo: username/repo
+      repo: datavisualization002/datavisualization002.github.io
     themeColor:
       light: '#ffffff'
       dark: '#101010'
