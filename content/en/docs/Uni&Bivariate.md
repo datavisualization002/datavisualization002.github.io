@@ -3,6 +3,9 @@ title: "Univariate & Bivariate"
 slug: "Univariate&Bivariate"
 ---
 
+Using Flourish show the distribution of a single variable or the relationship between two variable are quite straigthforward. 
+Here are some examples.
+
 <style>
 .fl-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:14px;}
 .fl-thumb{border:1px solid #e6e6e6;border-radius:12px;overflow:hidden;cursor:pointer;background:#fff;}
