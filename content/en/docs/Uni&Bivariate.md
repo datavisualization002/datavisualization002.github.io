@@ -19,13 +19,13 @@ slug: Univariate&Bivariate
 <script src="https://public.flourish.studio/resources/embed.js"></script>
 
 <div class="fl-grid">
-  <div class="fl-thumb" onclick="openFl('visualisation/27572844')">
+  <div class="fl-thumb" onclick="openFl('visualisation/27530571')">
     <img src="https://public.flourish.studio/visualisation/27530571/thumbnail" alt="Figure 1">
     <div class="fl-cap">Figure 1 — Title</div>
   </div>
 
-  <div class="fl-thumb" onclick="openFl('visualisation/27530571')">
-    <img src="https://public.flourish.studio/visualisation/12345678/thumbnail" alt="Figure 2">
+  <div class="fl-thumb" onclick="openFl('visualisation/27572844')">
+    <img src="https://public.flourish.studio/visualisation/27572844/thumbnail" alt="Figure 2">
     <div class="fl-cap">Figure 2 — Title</div>
   </div>
 </div>
