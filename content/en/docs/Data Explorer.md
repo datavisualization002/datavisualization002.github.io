@@ -16,6 +16,7 @@ However, personally, I do not think this is a very good visualization since the 
 | $county_1$ |       |        |       |       |       |         |
 | ...        |       |        |       |       |       |         |
 | $county_n$ |       |        |       |       |       |         |
+
 In the data part, ID is individual ID created by Flourish.
 GEOID is the ID used to link geo information, and the GEOID is also the id for the unit of analysis in this figure. 
 County is the name label.
@@ -40,6 +41,7 @@ This will be same structure as the one used in [Custom Map](/docs/custom-map/).
 | $county_1$ |       | tn   |        |       |       |       |         |
 | ...        |       | tn   |        |       |       |       |         |
 | $county_n$ |       | tn   |        |       |       |       |         |
+
 In the data part, ID is individual ID created by Flourish.
 GEOID is the ID used to link geo information, and the GEOID is also the id for the unit of analysis in this figure. 
 In this figure, each row is a unique county-time pair. 
