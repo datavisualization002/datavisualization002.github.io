@@ -20,7 +20,7 @@ slug: Univariate&Bivariate
 
 <div class="fl-grid">
   <div class="fl-thumb" onclick="openFl('visualisation/27530571')">
-    <img src="https://public.flourish.studio/visualisation/27530571/thumbnail" alt="Figure 1">
+    <img src="https://public.flourish.studio/visualisation/27530571/embed" alt="Figure 1">
     <div class="fl-cap">Figure 1 — Title</div>
   </div>
 
@@ -42,9 +42,13 @@ function openFl(src){
   const wrap = document.getElementById('flEmbed');
   wrap.innerHTML = `<div class="flourish-embed flourish-chart" data-src="${src}"></div>`;
 
-  // Ensure embed.js runs after we injected the new div
+  // Force Flourish embed.js to re-run and scan the newly injected div
+  const old = document.getElementById('flourish-embed-js');
+  if (old) old.remove();
+
   const s = document.createElement('script');
-  s.src = "https://public.flourish.studio/resources/embed.js";
+  s.id = 'flourish-embed-js';
+  s.src = "https://public.flourish.studio/resources/embed.js?v=" + Date.now();
   s.async = true;
   document.body.appendChild(s);
 
