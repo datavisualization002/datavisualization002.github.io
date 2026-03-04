@@ -39,13 +39,20 @@ slug: Univariate&Bivariate
 
 <script>
 function openFl(src){
-  const wrap=document.getElementById('flEmbed');
+  const wrap = document.getElementById('flEmbed');
   wrap.innerHTML = `<div class="flourish-embed flourish-chart" data-src="${src}"></div>`;
-  window.Flourish && window.Flourish.embed && window.Flourish.embed();
+
+  // Ensure embed.js runs after we injected the new div
+  const s = document.createElement('script');
+  s.src = "https://public.flourish.studio/resources/embed.js";
+  s.async = true;
+  document.body.appendChild(s);
+
   document.getElementById('flModal').classList.add('open');
 }
+
 function closeFl(){
   document.getElementById('flModal').classList.remove('open');
-  document.getElementById('flEmbed').innerHTML='';
+  document.getElementById('flEmbed').innerHTML = '';
 }
 </script>
