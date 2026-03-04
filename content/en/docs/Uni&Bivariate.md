@@ -1,6 +1,6 @@
 ---
 title: "Univariate & Bivariate"
-slug: "univariate-bivariate"
+slug: "Univariate&Bivariate"
 ---
 
 <style>
