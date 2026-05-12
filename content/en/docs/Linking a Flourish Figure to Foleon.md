@@ -5,11 +5,11 @@ slug: linking-a-flourish-figure-to-foleon
 
 In the current [Demographics session](https://university-at-albany-youth-justice-institute.foleon.com/yji/youth-in-new-york-state-2024/demographics) in [Youth Snapshots](https://university-at-albany-youth-justice-institute.foleon.com/yji/youth-in-new-york-state-2024/), the map is not interactive. The audience needs to access the interactive version through a link to [tableau](https://public.tableau.com/app/profile/nys.youth.justice.institute/viz/TotalYouthinNewYorkStatebyCounty/Dashboard1). 
 
-![[Screenshot 2026-05-12 131617.png]]
+![Screenshot of the current map](./Screenshot%202026-05-12%20131617.png)
 
 By linking the Flourish figure directly to Foleon, the map can become interactive within the page and better match the Y-FACTS [color schema](/docs/color-schema/). An example can be found in this [preview](https://viewer.foleon.com/preview/oqqy32ap3jk/demographics).
 
-![[Screenshot 2026-05-12 131713.png]]
+![Screenshot of the Flourish preview](./Screenshot%202026-05-12%20131713.png)
 
 To add the interactive figure in Foleon, go to **Elements → Embed**.
 
