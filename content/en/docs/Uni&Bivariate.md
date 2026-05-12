@@ -28,7 +28,7 @@ Here are some examples.
   </div>
 
   <div class="fl-thumb" onclick="openFl(27572844)">
-    <img src="https://public.flourish.studio/visualisation/27572844/thumbnail" alt="Figure 2">
+    <img src="https://public.flourish.studio/visualisation/28942734/thumbnail" alt="Figure 2">
     <div class="fl-cap">Figure 2 — Title</div>
   </div>
 </div>
