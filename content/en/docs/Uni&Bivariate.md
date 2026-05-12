@@ -23,7 +23,7 @@ Here are some examples.
 
 <div class="fl-grid">
   <div class="fl-thumb" onclick="openFl(27530571)">
-    <img src="https://public.flourish.studio/visualisation/1765335/thumbnail" alt="Figure 1">
+    <img src="https://public.flourish.studio/visualisation/27531445/thumbnail" alt="Figure 1">
     <div class="fl-cap">Figure 1 — Youth Population Share by State</div>
   </div>
 
